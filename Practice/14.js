@@ -5,7 +5,7 @@ function peopleAge(){
  for(i=0;i<array.length;i++){
     let x =array[i];
     if(x>=18){
-        console.log(array.indexOf(x))
+        console.log(array.indexOf(x));
     }
  }
 }

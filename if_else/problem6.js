@@ -1,5 +1,5 @@
-let a=8;
-if (a/1 && a/a) {
+let a=4;
+if (a%1===0 && a/a) {
     console.log("It is a prime number")
 }
 else {

@@ -10,3 +10,7 @@ while(a<=n){
 }
 calculateFactorial(10);
 console.log(sum);
+
+
+
+

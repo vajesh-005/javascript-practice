@@ -2,7 +2,7 @@
 // Print "Y" if it's a leap year and "N" if it's a common year.
 
 
-let exampleYear=2020;
+let exampleYear=2025;
 
 if((exampleYear%4===0 && exampleYear%100!==0)||exampleYear%400===0){
     console.log("Leap Year");

@@ -1,21 +1,25 @@
 // let numbers=[1234567];
-// let sum=0;
+// let  sum=0;
 // let a=numbers.toString();
 // console.log(a);
 // let b=a.split("");
 // console.log(b);
-// let c=b.map(Number);
-// console.log(c);
-//  for(i=1;i<c.length;i++){
-//   sum=sum+numbers;
+// for(i=0;i<b.length;i++){
+
+//   b[i]=parseInt(b[i]);
+// }
+//  for(i=0;i<b.length;i++){
+//   sum+=b[i];
    
 //  }
-//  return sum;
 //  console.log(sum);
-let exampleYear = 2020;
 
-if (exampleYear % 4 === 0 || exampleYear % 100 !== 0) {
-  console.log("Y");  // It's a leap year
+
+
+let exampleYear = 2022;
+
+if (exampleYear % 4 === 0 || exampleYear%400==0 && exampleYear % 100 !== 0) {
+  console.log("Yes");  // It's a leap year
 } else {
-  console.log("N");  // It's a common year
+  console.log("No");  // It's a common year
 }

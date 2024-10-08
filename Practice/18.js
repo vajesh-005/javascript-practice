@@ -2,9 +2,15 @@
 
 let array=["Aishwarya","udhaya","ishan","eeswaran","vajesh","kavinisha","Umesh"];
 let count=0;
+let length=array.length;
 
-for(i=0;i<array.length;i++){
-    if(array[i][0]=="a"||"A" ||array[i][0]=="e" || "E" ||array[i][0]=="i" ||"I"||array[i][0]=="o" || "O"||array[i][0]=="u"||"U"){
+for(let i=0;i<length;i++){
+    let firstLetter=array[i][0];
+    if(firstLetter==='a'|| firstLetter==='A' ||
+       firstLetter==='e'|| firstLetter==='E' ||
+       firstLetter==='i'|| firstLetter==='I' ||
+       firstLetter==='o'|| firstLetter==='O' ||
+       firstLetter==='u'|| firstLetter==='U'){
         count++;
     }
 }

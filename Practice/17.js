@@ -1,8 +1,6 @@
 // Given an array of integers and 2 numbers a and b (a < b) 
 // count the number of elements in the array which are between a and b
 
-
-
 let array=[2,4,6,8,10];
 
 let a=2;

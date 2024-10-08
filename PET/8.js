@@ -6,6 +6,6 @@ function sumNumbers(n){
         sum+=i;
     
     }
+    return sum;
 }
-sumNumbers(10);
-console.log(sum);
+console.log(sumNumbers(10));
